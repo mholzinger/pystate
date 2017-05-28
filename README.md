@@ -3,7 +3,7 @@ Capture rom save state, save and metadata info for migrating RetroPie data
 
 ## Save games & save states
 - Find all save games from a specified rom path
-- capture mathing rom for save game and hash which matches rom
+- Capture matching rom for save game and hash which matches rom
 - Store those values locally (sqlite)
 
 ## Box/title art and metadata for rom files
@@ -11,5 +11,5 @@ Capture rom save state, save and metadata info for migrating RetroPie data
 - Store those values locally (sqlite)
 
 ## Config for roms (if available)
-- Locate accosiated configs for each each core (if applicable mathing specefic roms)
+- Locate associated configs for each each core (if applicable mathing specific roms)
 
