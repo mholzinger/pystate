@@ -13,3 +13,7 @@ Capture rom save state, save and metadata info for migrating RetroPie data
 ## Config for roms (if available)
 - Locate associated configs for each each core (if applicable mathing specific roms)
 
+## Configure controller presets
+- Set differing USB controller types to enable the retroarch menu while in game
+- Set default controllers for emulators (analog sticks for psx, snes digital pads for 16 bit)
+- Enable controller that launched rom to set itself as default for the session, setting others to shift registers down to secondary, but only for the session which was started
