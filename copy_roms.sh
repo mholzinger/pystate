@@ -9,8 +9,8 @@ config_path=/opt/retropie/configs/all/retroarch/config/
 
 # This does an rsync with all the right file extensions
 # rsync -a --include '*/' --include '*.mp3' --exclude '*' source/ target/
-rsync -a --include '*/' --include '*.srm' --include '*.sav*' --include '*.state' --exclude '*' "$rom_path" "$save_copy_path"
+rsync -aL --include '*/' --include '*.srm' --include '*.sav*' --include '*.state' --exclude '*' "$rom_path" "$save_copy_path"
 
 
 # This does an rsync with all the rom specefic retroarch settings
-rsync -a --include '*/' --include '*.cfg' --exclude '*' "$config_path" "$config_copy_path"
+rsync -aL --include '*/' --include '*.cfg' --exclude '*' "$config_path" "$config_copy_path"
